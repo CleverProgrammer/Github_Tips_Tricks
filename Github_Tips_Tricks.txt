@@ -52,3 +52,8 @@ cd # Home
 cd .. # Back out one
 cd <dest> # Go in one step
 
+** Find File Tricks **
+ls *abc		# list all files starting with --abc--
+ls *abc*	# list all files containing --abc--
+ls abc*		# list all files ending with --abc--
+
