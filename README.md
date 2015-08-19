@@ -1,5 +1,6 @@
 # GitHub 101
 
+### Simply open Github_Tips_Tricks.txt and follow along
 - GitHub tips & tricks
 - Create Repos Using CLI'S
 - Learn to use terminal CLI
