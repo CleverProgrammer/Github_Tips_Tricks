@@ -24,9 +24,18 @@ git add .
 git commit -m "<Put Descriptive Message>"
 git remote add origin https://github.com/<repo>.git
 git remove -v
-git status #use EVERY TIME
+git status # use EVERY TIME
+git fetch # use this more than git pull
+git merge # to pull after it is fetched
 git pull origin master
 git push origin master
+
+# connect with SSH to avoid prompt for user/pass etc
+eval "$(ssh-agent -s)"
+ssh-add -l #if this works then it means i'm connected
+ssh -vT git@github.com #check to see the problem
+
+git remote add origin git@github.com:rafeh01/iPython-Notebook-Notes-Python-Data-Science.git
 
 # CLI 
 ------
