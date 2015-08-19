@@ -1,0 +1,45 @@
+# Github tips and tricks for terminal cli and hub
+
+# Hub
+------
+** How to Install Hub from CLI? **
+cd
+brew install hub
+git clone https://github.com/github/hub.git
+cd hub
+
+** How to create a new repository from CLI? **
+cd <source> # go to the folder first
+git init
+git add .
+git commit -m "Testing Repo Using Hub"
+hub create -h #to learn about hub create command
+hub create -d "<repo>"
+git push origin master
+
+# basic push pull to an existing repo from CLI
+----------------
+git init
+git add .
+git commit -m "<Put Descriptive Message>"
+git remote add origin https://github.com/<repo>.git
+git remove -v
+git status #use EVERY TIME
+git pull origin master
+git push origin master
+
+# CLI 
+------
+** How to copy and move? **
+#cp - copy [-a for all] [. for all including hidden]
+cp -a <source>. <destination> # copy and move all to folder
+cp <source> <dest> 
+
+** How to remove files? **
+rm <source>
+
+** How to move around in directories? **
+cd # Home
+cd .. # Back out one
+cd <dest> # Go in one step
+
