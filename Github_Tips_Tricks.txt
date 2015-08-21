@@ -43,7 +43,7 @@ git remote add origin git@github.com:rafeh01/iPython-Notebook-Notes-Python-Data-
 #cp - copy [-a for all] [. for all including hidden]
 cp -a <source>. <destination> # copy and move all to folder
 cp <source> <dest> 
-mv  -v ~/Downloads/* ~/Videos/
+mv  -v ~/<source>/* ~/<destination>/
 
 ** How to remove files? **
 rm <source>
